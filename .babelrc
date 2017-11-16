@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        "transform-async-to-generator"
+    ],
+    "presets": [
+        "es2015",
+        "es2017"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2017
+    }
+}

@@ -2,9 +2,10 @@ const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const routes = require('./routes/users');
+console.log(__dirname);
+const routes = require('./app/routes/users');
 
-mongoose.Promise = globa.Promise
+mongoose.Promise = global.Promise
 mongoose.connect('mongodb://localhost:27017/api-auth')
 
 const app = express()

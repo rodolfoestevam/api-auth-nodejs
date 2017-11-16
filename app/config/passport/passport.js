@@ -21,7 +21,7 @@ passport.use(new JwtStrategy({
     } catch (error) {
         done(error, false)
     }
-}))
+}));
 
 passport.use(new LocalStrategy({
     usernameField: 'email'
